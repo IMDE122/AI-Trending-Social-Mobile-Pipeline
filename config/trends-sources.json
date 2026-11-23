@@ -1,0 +1,36 @@
+{
+  "github_trending": {
+    "url": "https://github.com/trending?since=daily",
+    "query": "AI",
+    "filter": "language:python+javascript+typescript",
+    "sort": "stars",
+    "period": "daily",
+    "items_per_page": 20
+  },
+  "x_twitter": {
+    "search_query": "AI agents viral OR artificial intelligence trends OR LLM development",
+    "result_type": "recent",
+    "limit": 15,
+    "source": "public_posts"
+  },
+  "reddit": {
+    "subreddits": ["MachineLearning", "LocalLLaMA", "artificial", "Singularity"],
+    "sort": "hot",
+    "limit": 15,
+    "include_nsfw": false
+  },
+  "hacker_news": {
+    "base_url": "https://hnx.net/",
+    "filter": "AI+artificial+machine+llm+agent+learning",
+    "limit": 15,
+    "include_stories": true,
+    "include_comments": false
+  },
+  "techcrunch": {
+    "category": "artificial-intelligence",
+    "period": "last_24h",
+    "limit": 10,
+    "include_podcasts": false,
+    "include_videos": false
+  }
+}

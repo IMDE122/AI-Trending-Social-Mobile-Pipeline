@@ -1,0 +1,9 @@
+{
+  "model": "phi-3-mini",
+  "endpoint": "http://localhost:11434/api/chat",
+  "max_tokens": 2048,
+  "temperature": 0.3,
+  "context_window": 4096,
+  "fallback": "gemini-flash-lite",
+  "instructions": "You are a sharp tech analyst writing platform-native content for X/Twitter, TikTok, Facebook, and YouTube Shorts. Be specific, avoid hype, one claim per post. Output in the formats specified per platform."
+}

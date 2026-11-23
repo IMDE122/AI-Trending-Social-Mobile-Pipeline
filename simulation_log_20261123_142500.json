@@ -1,0 +1,214 @@
+{
+  "phone_specs": {
+    "width": 360,
+    "height": 640,
+    "ram_mb": 4096,
+    "storage_gb": 128,
+    "os_version": "Android 14",
+    "termux_version": "0.118.0",
+    "ollama_model": "phi-3-mini",
+    "ollama_ram_mb": 2048
+  },
+  "simulation_time": "2026-11-23T14:25:00.134670",
+  "final_state": "complete",
+  "total_captures": 17,
+  "total_steps": 7,
+  "errors": [],
+  "screen_captures": [
+    {
+      "timestamp": "2026-11-23T14:24:59.425532",
+      "state": "idle",
+      "screen_content": "Phone initialized",
+      "metadata": {}
+    },
+    {
+      "timestamp": "2026-11-23T14:24:59.426451",
+      "state": "pipeline_running",
+      "screen_content": "Starting daily pipeline run",
+      "metadata": {}
+    },
+    {
+      "timestamp": "2026-11-23T14:24:59.426600",
+      "state": "pipeline_running",
+      "screen_content": "Running: Environment Check",
+      "metadata": {
+        "step": "Environment Check"
+      }
+    },
+    {
+      "timestamp": "2026-11-23T14:24:59.531796",
+      "state": "pipeline_running",
+      "screen_content": "Step 'Environment Check' success: Environment ready",
+      "metadata": {
+        "step": "Environment Check",
+        "status": "success"
+      }
+    },
+    {
+      "timestamp": "2026-11-23T14:24:59.532091",
+      "state": "pipeline_running",
+      "screen_content": "Running: Scraping Trends (5 sources)",
+      "metadata": {
+        "step": "Scraping Trends (5 sources)"
+      }
+    },
+    {
+      "timestamp": "2026-11-23T14:24:59.632355",
+      "state": "pipeline_running",
+      "screen_content": "Step 'Scraping Trends (5 sources)' success: Scraped 5 sources, 23 items",
+      "metadata": {
+        "step": "Scraping Trends (5 sources)",
+        "status": "success"
+      }
+    },
+    {
+      "timestamp": "2026-11-23T14:24:59.632391",
+      "state": "pipeline_running",
+      "screen_content": "Running: Scoring & Ranking Topics",
+      "metadata": {
+        "step": "Scoring & Ranking Topics"
+      }
+    },
+    {
+      "timestamp": "2026-11-23T14:24:59.732611",
+      "state": "pipeline_running",
+      "screen_content": "Step 'Scoring & Ranking Topics' success: Top 5 topics ranked",
+      "metadata": {
+        "step": "Scoring & Ranking Topics",
+        "status": "success"
+      }
+    },
+    {
+      "timestamp": "2026-11-23T14:24:59.732680",
+      "state": "pipeline_running",
+      "screen_content": "Running: Generating Content (4 platforms)",
+      "metadata": {
+        "step": "Generating Content (4 platforms)"
+      }
+    },
+    {
+      "timestamp": "2026-11-23T14:24:59.832923",
+      "state": "pipeline_running",
+      "screen_content": "Step 'Generating Content (4 platforms)' success: Content for X, TikTok, FB, YT",
+      "metadata": {
+        "step": "Generating Content (4 platforms)",
+        "status": "success"
+      }
+    },
+    {
+      "timestamp": "2026-11-23T14:24:59.833004",
+      "state": "pipeline_running",
+      "screen_content": "Running: Fallback Media Chain (Level 1\u21925)",
+      "metadata": {
+        "step": "Fallback Media Chain (Level 1\u21925)"
+      }
+    },
+    {
+      "timestamp": "2026-11-23T14:24:59.933265",
+      "state": "pipeline_running",
+      "screen_content": "Step 'Fallback Media Chain (Level 1\u21925)' success: Media: Level 2 (stock video)",
+      "metadata": {
+        "step": "Fallback Media Chain (Level 1\u21925)",
+        "status": "success"
+      }
+    },
+    {
+      "timestamp": "2026-11-23T14:24:59.933339",
+      "state": "pipeline_running",
+      "screen_content": "Running: Browser Automation (3 platforms)",
+      "metadata": {
+        "step": "Browser Automation (3 platforms)"
+      }
+    },
+    {
+      "timestamp": "2026-11-23T14:25:00.033617",
+      "state": "pipeline_running",
+      "screen_content": "Step 'Browser Automation (3 platforms)' success: Posted to YT, TT, FB",
+      "metadata": {
+        "step": "Browser Automation (3 platforms)",
+        "status": "success"
+      }
+    },
+    {
+      "timestamp": "2026-11-23T14:25:00.033692",
+      "state": "pipeline_running",
+      "screen_content": "Running: Logging & Summary",
+      "metadata": {
+        "step": "Logging & Summary"
+      }
+    },
+    {
+      "timestamp": "2026-11-23T14:25:00.133968",
+      "state": "pipeline_running",
+      "screen_content": "Step 'Logging & Summary' success: Pipeline complete",
+      "metadata": {
+        "step": "Logging & Summary",
+        "status": "success"
+      }
+    },
+    {
+      "timestamp": "2026-11-23T14:25:00.134037",
+      "state": "complete",
+      "screen_content": "Pipeline Complete - All posts published",
+      "metadata": {}
+    }
+  ],
+  "pipeline_steps": [
+    {
+      "step_name": "Environment Check",
+      "start_time": "2026-11-23T14:24:59.426561",
+      "end_time": "2026-11-23T14:24:59.526775",
+      "status": "success",
+      "output": "Environment ready",
+      "duration_seconds": 0.100214
+    },
+    {
+      "step_name": "Scraping Trends (5 sources)",
+      "start_time": "2026-11-23T14:24:59.531991",
+      "end_time": "2026-11-23T14:24:59.632301",
+      "status": "success",
+      "output": "Scraped 5 sources, 23 items",
+      "duration_seconds": 0.10031
+    },
+    {
+      "step_name": "Scoring & Ranking Topics",
+      "start_time": "2026-11-23T14:24:59.632380",
+      "end_time": "2026-11-23T14:24:59.732531",
+      "status": "success",
+      "output": "Top 5 topics ranked",
+      "duration_seconds": 0.100151
+    },
+    {
+      "step_name": "Generating Content (4 platforms)",
+      "start_time": "2026-11-23T14:24:59.732656",
+      "end_time": "2026-11-23T14:24:59.832833",
+      "status": "success",
+      "output": "Content for X, TikTok, FB, YT",
+      "duration_seconds": 0.100177
+    },
+    {
+      "step_name": "Fallback Media Chain (Level 1\u21925)",
+      "start_time": "2026-11-23T14:24:59.832978",
+      "end_time": "2026-11-23T14:24:59.933164",
+      "status": "success",
+      "output": "Media: Level 2 (stock video)",
+      "duration_seconds": 0.100186
+    },
+    {
+      "step_name": "Browser Automation (3 platforms)",
+      "start_time": "2026-11-23T14:24:59.933316",
+      "end_time": "2026-11-23T14:25:00.033503",
+      "status": "success",
+      "output": "Posted to YT, TT, FB",
+      "duration_seconds": 0.100187
+    },
+    {
+      "step_name": "Logging & Summary",
+      "start_time": "2026-11-23T14:25:00.033670",
+      "end_time": "2026-11-23T14:25:00.133874",
+      "status": "success",
+      "output": "Pipeline complete",
+      "duration_seconds": 0.100204
+    }
+  ]
+}
